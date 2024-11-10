@@ -1,0 +1,56 @@
+# General
+__pycache__/
+*.py[cod]
+*.env
+*.DS_Store
+*.log
+*.sqlite3
+*.migrations/
+*.bak
+
+# Django
+/media/
+*.sqlite3
+db.sqlite3
+/staticfiles/
+*.log
+.env
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+venv*/
+pip-log.txt
+
+# VS Code
+.vscode/
+
+# React
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+build/
+dist/
+coverage/
+.env.local
+.env.development
+.env.production
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Git
+.idea/
